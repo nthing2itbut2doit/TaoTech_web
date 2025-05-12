@@ -1,70 +1,30 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Tao Tech LLC</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
+<style>
+  /* ... existing styles ... */
 
-    body {
-      background-color: #0e0e0e;
-      background-image: url('TT_Aetherion_draft-002_02.png');
-      background-repeat: no-repeat;
-      background-position: center center;
-      background-size: contain;
-      height: 100vh;
-      font-family: 'Segoe UI', sans-serif;
-      position: relative;
-    }
+  .button-group {
+    position: absolute;
+    top: 86%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    gap: 20px;
+  }
 
-    .button-group {
-      position: absolute;
-      top: 86%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      display: flex;
-      gap: 20px;
-    }
+  .button {
+    padding: 12px 28px;
+    min-width: 160px; /* <-- Set equal width */
+    text-align: center;
+    border: 1px solid #888;
+    border-radius: 6px;
+    background-color: transparent;
+    color: #f4f4f4;
+    font-size: 1em;
+    text-decoration: none;
+    transition: background 0.2s, border-color 0.2s;
+  }
 
-    .button {
-      padding: 12px 28px;
-      border: 1px solid #888;
-      border-radius: 6px;
-      background-color: transparent;
-      color: #f4f4f4;
-      font-size: 1em;
-      text-decoration: none;
-      transition: background 0.2s, border-color 0.2s;
-    }
-
-    .button:hover {
-      background-color: rgba(255, 255, 255, 0.05);
-      border-color: #ccc;
-    }
-
-    footer {
-      position: absolute;
-      bottom: 20px;
-      width: 100%;
-      text-align: center;
-      color: #666;
-      font-size: 0.85em;
-    }
-  </style>
-</head>
-<body>
-
-  <div class="button-group">
-    <a class="button" href="#epsilon">Epsilon Portal</a>
-    <a class="button" href="#contact">Contact</a>
-  </div>
-
-  <footer>&copy; 2025 Tao Tech LLC. All rights reserved.</footer>
-
-</body>
-</html>
+  .button:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+    border-color: #ccc;
+  }
+</style>

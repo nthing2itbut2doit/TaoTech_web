@@ -10,55 +10,23 @@
       background-color: #0e0e0e;
       color: #eaeaea;
       font-family: 'Segoe UI', sans-serif;
-    }
-
-    header {
-      display: flex;
-      align-items: center;
-      padding: 20px 40px;
-      background-color: #111;
-      border-bottom: 1px solid #222;
-    }
-
-    header img {
-      height: 50px;
-      margin-right: 20px;
-    }
-
-    header h1 {
-      font-size: 1.8em;
-      margin: 0;
-      letter-spacing: 1px;
-    }
-
-    main {
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
+      height: 100vh;
       text-align: center;
-      height: calc(100vh - 80px);
-      padding: 0 20px;
     }
 
-    main h2 {
-      font-size: 2.5em;
-      margin-bottom: 0.3em;
-    }
-
-    main p {
-      font-size: 1.2em;
-      color: #aaa;
-      max-width: 600px;
-      margin-bottom: 2em;
-    }
-
-    .button-group {
-      display: flex;
-      gap: 20px;
+    img {
+      max-width: 80%;
+      max-height: 300px;
+      margin-bottom: 40px;
     }
 
     .button {
+      display: inline-block;
+      margin: 10px 0;
       padding: 12px 28px;
       border: 1px solid #444;
       border-radius: 6px;
@@ -73,33 +41,14 @@
       background-color: #333;
       border-color: #666;
     }
-
-    footer {
-      text-align: center;
-      padding: 20px;
-      font-size: 0.85em;
-      color: #555;
-    }
   </style>
 </head>
 <body>
 
-  <header>
-    <img src="TT_Aetherion_draft-002_02.png" alt="Tao Tech Logo" />
-    <h1>Tao Tech LLC</h1>
-  </header>
+  <img src="TT_Aetherion_draft-002_02.png" alt="Tao Tech Logo" />
 
-  <main>
-    <h2>Innovating the Flow</h2>
-    <p>Recursive intelligence. Secure networks. A new standard of digital autonomy.</p>
-
-    <div class="button-group">
-      <a class="button" href="#contact">Contact</a>
-      <a class="button" href="#epsilon">Epsilon Portal</a>
-    </div>
-  </main>
-
-  <footer>&copy; 2025 Tao Tech LLC. All rights reserved.</footer>
+  <a class="button" href="#epsilon">Epsilon Portal</a><br>
+  <a class="button" href="#contact">Contact</a>
 
 </body>
 </html>
